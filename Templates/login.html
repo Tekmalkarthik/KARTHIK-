@@ -1,0 +1,72 @@
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_page</title>
+    <style>
+      body{
+        background-image: url("https://www.learnreligions.com/thmb/-VmjnsLNdVAkCAazEFZFdDcrjHM=/6000x4000/filters:fill(auto,1)/himalaya-mountains-landscape-from-kalapattar-view-point-at-sunset--everest-region--nepal-864223704-5c7374c546e0fb0001835dc3.jpg");
+        background-repeat: no-repeat;
+        background-size: 1600px;
+        background-attachment: fixed;
+        text-align: center;
+        color:whitesmoke;
+        font-size:18px ; }
+      
+      .card{
+        display:inline-block;
+        transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+        border: 30px solid;
+        border-radius:11px;
+        border-width: 10;
+        width: 20%;
+        } 
+    button{
+      background-color: rgb(237, 230, 238);
+    
+    }
+     #h{
+       text-decoration:underline ;
+     }
+
+     footer {
+    background-color: rgb(0, 0, 0);
+    color : whitesmoke;
+    text-align : center;
+    width :100%;
+    position: fixed;
+    bottom:0px;
+    margin-left: 0%;
+  }
+
+    
+
+  
+    </style>
+</head>
+<body >
+  <form  action="signin" method=post>
+    {%csrf_token%}
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2 id=h>Please login</h2>
+    <div class='card'><br>
+    username : <input type='text'  name='username' value=""><br><br>
+    
+    Password : <input type='password' name="password" value=""><br><br> </b>
+    
+    
+    <button type='submit'>LOGIN</button>
+    <button><a href="insertdata">REGISTRATION</a></button><br><br>
+
+  </div>
+</form>
+<footer>
+  SAGSOL_PVT_LMTD
+</footer>
+</body>
+</html>
