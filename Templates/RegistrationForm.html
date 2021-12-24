@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application_page</title>
+  <style>
+    .head1{
+
+     text-decoration: underline;
+      padding:12px;
+      height:10px;
+      width:100%;
+      font-style:Times New Roman ;
+      color:whitesmoke;   
+       margin-top: 0%; }
+
+    .container{
+      width:80%;
+      padding:0rem 2rem;
+
+    }
+
+      body{
+        background-image:url("https://www.sigmaassessmentsystems.com/wp-content/uploads/2015/03/shutterstock_249069352_retention.jpg" );
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 1600px;
+        border-style: solid;
+        border-color: rgb(182, 182, 207);
+        margin: 0%;
+        padding:15px;
+        
+      }
+      
+      .box{
+        border-width:0;  
+        background-color:lavender;
+        border-radius:0px;
+        border-bottom-style: ridge;
+      }
+      
+      label,h4{
+        color:white;
+      
+    }
+
+      .bg{
+      background-color:rgb(0, 110, 255);
+      width:20%
+      
+
+      }  
+
+      footer{ 
+    
+    color : whitesmoke;
+    text-align : center;
+    width : 100%;
+    position: fixed;
+    bottom:0px;} 
+
+
+  </style>
+</head>
+<body>
+<div  class= "container" >
+  <form  action='Form_2' method="POSt">
+  
+  <h2 class=head1>SAGSOL APPLICATION FORM</h2><br>
+  
+  <label >Name: 
+  <input type="text"  NAME="" class="box" size=25 placeholder="Enter FirstName">
+  <input type="text" NAME="LastName" class="box" size=25 placeholder="Enter LastName"></label><br><br>
+  
+
+  <label>Email:
+  <input type="email" class="box" NAME="Email" size=25 placeholder="Enter Email_ID"></label><br><br>
+
+  <label>Contact:
+  <select class="box">
+    <option>+91</option>
+    <option>+00</option>
+    <option>+01</option>
+    <option>+62</option>
+    <option>+02</option>
+  </select>
+  <input type="number" class="box" NAME="Contact" size=25 placeholder="Enter number"></label><br><br>
+
+  <label>Gender:
+  <font color=white><input type="radio" NAME='Gender' value="" >Male</input>
+  <input type="radio" NAME="Gender" value="" >Female</input>
+  <input type="radio" NAME="Gender" value="">Other</input><br><br></font></label>
+
+  <label>DOB:
+  <input type="date" NAME="DOB" class="box"><br><br></label>
+
+  <label >City:
+  <select class="box"
+    <option>HYDERBAD</option>
+    <option>OLDCITY</option>
+    <option>YOUSUFGUDA</option>
+    <option>HIMAYTNAGAR</option>
+    <option>NARAYANGUDA</option>
+    <option>KRISHNA NAGAR</option>
+    <option>JUBLLIEHILLS</option>
+  </select><br><br>
+  </label>
+
+  <label color:white>Address:
+  <textarea class="box"  rows="4" cols="50" NAME="Address"></textarea></label><br><br>
+
+  <label>Password:
+  <input type="password" size=25 class="box"placeholder="Enter password"></label><br><br>
+
+  <label>Re-Password:
+  <input type="password" size=25 class="box" placeholder="Enter Re-password"></label><br><br>
+
+  <label>Upload photo:
+  <input type="file" name="uploadimg" value="jpg"></label><br><br>
+
+  <font color=white><input type="checkbox" >
+  make sure the deatils provided by the user is correct according to the user information in case <br>
+  of any wrong information provided by the user, your application will be rejected and<br>
+    legal action will be taken <br></font>
+  <button type="submit"  class='bg'>submit</button><br><br>
+</form>
+</div>
+<footer>
+  SAGSOL_PVT_LMTD
+</footer>
+</body>
+</html>
